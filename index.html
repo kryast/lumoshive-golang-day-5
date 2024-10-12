@@ -13,10 +13,11 @@
     />
   </head>
   <body>
+    <!-- Logo dan NavBar -->
     <header>
-      <nav id="container">
+      <nav id="nav-container">
         <div id="logo">
-          <h2>KRYAST.</h2>
+          <h2><a href="#">KRYAST.</a></h2>
         </div>
         <ul id="navbar">
           <li>
@@ -26,40 +27,85 @@
             <a href="">About</a>
           </li>
           <li>
-            <a href="">Education</a>
+            <a href="">Skill</a>
           </li>
           <li>
-            <a href="">Skills</a>
+            <a href="">Project</a>
+          </li>
+          <li>
+            <a href="">Experience</a>
           </li>
           <li>
             <a href="">Contact</a>
           </li>
         </ul>
 
+        <!-- Hamburger Menu -->
         <div class="toggle">
           <input type="checkbox" id="klik" />
           <span></span>
           <span></span>
           <span></span>
         </div>
+        <!-- End Hamburger Menu -->
       </nav>
     </header>
-    <main>
-      <section id="satu">
-        <h2>HAlo</h2>
-        <img
-          src="https://www.mongabay.co.id/wp-content/uploads/2023/06/kucing-rumahan-unsplash-768x512.jpeg"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          dolores vitae suscipit, blanditiis, voluptas ea quidem ad natus
-          reprehenderit quod rerum aperiam corporis maiores eveniet hic harum
-          iure exercitationem at.
-        </p>
+
+    <!-- End Logo dan Navbar -->
+    <main id="container">
+      <!-- Home dan About Section -->
+      <section id="home-about">
+        <div>
+          <img src="asset/Ahmad-Syarifuddin.jpg" width="600px" height="auto" />
+        </div>
+        <div>
+          <h2>I'm <span>AHMAD SYARIFUDDIN</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+            dolores vitae suscipit, blanditiis, voluptas ea quidem ad natus
+            reprehenderit quod rerum aperiam corporis maiores eveniet hic harum
+            iure exercitationem at.
+          </p>
+        </div>
       </section>
+      <!-- End Home dan About Section -->
+
+      <!-- Skill Section -->
+      <section id="skill">
+        <div id="hard-skill">
+          <h3>Hard Skill - Certified by Lumoshive Academy</h3>
+          <ul>
+            <li>Golang</li>
+            <li>Git Framework</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div id="soft-skill">
+          <h3>Soft Skill</h3>
+          <ul>
+            <li>Analytical Thinking</li>
+            <li>Collaboration</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Skill Section -->
+
+      <!-- Project Section -->
+      <section id="project"></section>
+      <!-- End Project Section -->
+
+      <!-- Experience Section -->
+      <section id="experience"></section>
+      <!-- End Experience Section -->
+
+      <!-- Contact Section -->
+      <section id="contact"></section>
+      <!-- End Contact Section -->
     </main>
     <footer>
       <div>
+        <p>Disclaimer: all information is fictive, for educational purposes.</p>
         <p>&copy; Credit By Ahmad Syarifuddin reference By Lumoshive Academy</p>
       </div>
     </footer>
