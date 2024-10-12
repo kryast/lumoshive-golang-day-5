@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Profile Ahmad Syarifuddin</title>
+    <link rel="shortcut icon" href="assets/logo2.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,22 +22,22 @@
         </div>
         <ul id="navbar">
           <li>
-            <a href="">Home</a>
+            <a href="#" class="nav-item">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#" class="nav-item">About</a>
           </li>
           <li>
-            <a href="">Skill</a>
+            <a href="#skill" class="nav-item">Skill</a>
           </li>
           <li>
-            <a href="">Project</a>
+            <a href="#project" class="nav-item">Project</a>
           </li>
           <li>
-            <a href="">Experience</a>
+            <a href="#experience" class="nav-item">Experience</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact" class="nav-item">Contact</a>
           </li>
         </ul>
 
@@ -58,13 +59,14 @@
         <div>
           <img src="asset/Ahmad-Syarifuddin.jpg" width="600px" height="auto" />
         </div>
-        <div>
-          <h2>I'm <span>AHMAD SYARIFUDDIN</span></h2>
+        <div id="text">
+          <h2>I'm <span class="typedText"></span></h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-            dolores vitae suscipit, blanditiis, voluptas ea quidem ad natus
-            reprehenderit quod rerum aperiam corporis maiores eveniet hic harum
-            iure exercitationem at.
+            I am a passionate Fullstack Developer with a strong foundation in
+            both front-end and back-end technologies. With over 5 years of
+            experience at Lumoshive, I have successfully contributed to numerous
+            projects that leverage my expertise in developing dynamic and
+            scalable web applications.
           </p>
         </div>
       </section>
@@ -127,7 +129,7 @@
 
       <!-- Project Section -->
       <section id="project">
-        <h2>Successful Project</h2>
+        <h2>SUCCESSFUL PROJECT</h2>
         <div id="project-container">
           <div id="project-box">
             <img src="asset/p1.png" alt="" />
@@ -187,17 +189,17 @@
       <section id="contact">
         <div id="contact-container">
           <h1>Contact Us</h1>
-          <form>
-            <label for="nama">Nama :</label>
+          <form id="form-contact">
+            <label for="nama">Nama</label>
             <input type="text" id="nama" name="nama" required />
 
-            <label for="email">Email :</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required />
 
-            <label for="subjek">Subjek :</label>
+            <label for="subjek">Subjek</label>
             <input type="text" id="subjek" name="subjek" required />
 
-            <label for="pesan">Pesan :</label>
+            <label for="pesan">Pesan</label>
             <textarea
               id="pesan"
               name="pesan"
